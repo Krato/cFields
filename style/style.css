@@ -64,7 +64,7 @@ label { cursor:pointer;}
 	display:inline-block!important;
 	color:#777;
 	margin:1px 0 0 0!important;
-	width:241px;
+	width:auto; //Changed to fit every container
 	background:#FFF;
 	border:1px solid #DDD;
 	border-radius: 3px;
@@ -109,7 +109,7 @@ ul.cFieldLists {
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
 	width:241px;
-	max-height:200px;
+/*	max-height:200px; */ //deleted to use in large selects
 	overflow-y:scroll;
 	z-index:999999999999;
 	border-top:none;
